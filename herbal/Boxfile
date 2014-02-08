@@ -3,6 +3,7 @@ web1:
     - /fuel/app/cache
     - /fuel/app/logs
     - /fuel/app/tmp
+    - /fuel/app/logs/2014/02/08.php
 
   document_root: /public
   php_version: 5.3.8
