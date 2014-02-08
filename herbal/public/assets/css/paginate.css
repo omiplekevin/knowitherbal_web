@@ -1,0 +1,41 @@
+#status, #paginate {
+			display: inline-block;
+                        font-size: 12px;
+		}
+		#status {
+			margin: 10px 0px;
+			color: #999;
+			float: left;
+		}
+		#status p {
+			margin: 0px;
+		}
+		#status em {
+			font-size: 11px;
+			color: #777;
+			font-style: normal;
+		}
+		#paginate {
+			float: left;
+			margin: 10px 0px;
+		}
+		#paginate .items_per_page label {
+			color: #999;
+		}
+		#paginate a {
+			margin: 0px 5px;
+			padding: 2px 5px;
+			text-decoration: none;
+			color: #111111;
+		}
+		#paginate a.current {
+			background-color: #00CC00;
+			color: #fff;
+			cursor: default;
+		}
+		#paginate a.disabled {
+			color: #bbb;
+			border-color: #555;
+			text-shadow: none;
+			cursor: default;
+		}
