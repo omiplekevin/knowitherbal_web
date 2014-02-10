@@ -6,9 +6,9 @@
 return array(
 	'default' => array(
 		'connection'  => array(
-			'dsn'        => 'mysql:host=tunnel.pagodabox.com:3306;dbname=herbal',
-			'username'   => 'isabell',
-			'password'   => 'k0CVc2la',
+			'dsn'        => 'mysql:host='.$_SERVER['DB1_HOST'].';port='.$_SERVER['DB1_PORT'].';dbname='.$_SERVER['DB1_NAME'],
+			'username'   => $_SERVER['DB1_USER'],
+			'password'   => $_SERVER['DB1_PASS'],
 		),
 	),
 );
