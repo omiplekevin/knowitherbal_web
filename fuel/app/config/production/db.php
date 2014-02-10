@@ -6,7 +6,7 @@
 return array(
 	'default' => array(
 		'connection'  => array(
-			'dsn'        => 'mysql:host='.$_SERVER['DB1_HOST'].';port='.$_SERVER['DB1_PORT'].';dbname='.$_SERVER['DB1_NAME'],
+			'dsn'        => 'mysql:host=127.0.0.1;dbname='.$_SERVER['DB1_NAME'],
 			'username'   => $_SERVER['DB1_USER'],
 			'password'   => $_SERVER['DB1_PASS'],
 		),
